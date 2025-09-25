@@ -226,6 +226,11 @@
   transition: all 0.3s ease;
 }
 
+/* Увеличиваем верхний отступ кнопки в карточках без изображения */
+.project-content-only .github-link {
+  margin-top: 1.2rem;
+}
+
 .github-link:hover {
   box-shadow: 0 8px 25px rgba(0, 255, 136, 0.3);
   transform: translateY(-2px);
@@ -273,5 +278,10 @@
   
   .project-content-only p {
     font-size: 0.9rem;
+  }
+
+  /* На мобильных делаем отступ ещё чуть больше для воздуха */
+  .project-content-only .github-link {
+    margin-top: 1.4rem;
   }
 } 

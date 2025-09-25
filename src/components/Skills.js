@@ -4,22 +4,22 @@ import './Skills.css';
 
 const Skills = () => {
   const technicalSkills = [
-    { name: 'Unity', level: 85, color: '#00ff88' },
-    { name: 'C#', level: 80, color: '#00ccff' },
-    { name: 'Game Design', level: 75, color: '#ff6b6b' },
-    { name: 'Git', level: 80, color: '#a55eea' }
+    { name: 'Python', level: 90, color: '#00ff88' },
+    { name: 'FastAPI / Django', level: 80, color: '#00ccff' },
+    { name: 'SQL/ORM (Postgres/SQLite/MySQL)', level: 75, color: '#4ecdc4' },
+    { name: 'JavaScript, React (Frontend)', level: 70, color: '#f7b731' }
   ];
 
   const gameSkills = [
-    { name: 'Game Development', level: 85, color: '#00ff88' },
-    { name: 'Level Design', level: 75, color: '#00ccff' },
-    { name: '3D Modeling', level: 60, color: '#ff6b6b' },
-    { name: 'Animation', level: 65, color: '#4ecdc4' },
+    { name: 'Скрипты и автоматизация', level: 85, color: '#00ff88' },
+    { name: 'CI/CD (GitHub Actions)', level: 75, color: '#00ccff' },
+    { name: 'Docker / Docker Compose', level: 70, color: '#ff6b6b' },
+    { name: 'Git', level: 80, color: '#4ecdc4' }
   ];
 
   const tools = [
-    'Unity', 'C#', 'Game Design', 'Python', 'JavaScript', 
-    'Git', 'GitHub', 'AI', 'Visual Studio', 'Blender'
+    'Python', 'Poetry', 'FastAPI', 'Flask', 'JavaScript',
+    'Git', 'GitHub', 'Docker', 'Docker Compose', 'Nginx'
   ];
 
   return (
@@ -43,7 +43,7 @@ const Skills = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3>Игровые навыки</h3>
+            <h3>Автоматизация и инфраструктура</h3>
             <div className="skills-list">
               {gameSkills.map((skill, index) => (
                 <motion.div

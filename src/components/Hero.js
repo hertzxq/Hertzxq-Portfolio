@@ -56,22 +56,13 @@ const Hero = () => {
             </motion.h1>
             
             <motion.p
-              className="hero-subtitle"
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-            >
-              так совпало, что увлекаюсь компьютерами
-            </motion.p>
-            
-            <motion.p
               className="hero-description"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              С детства увлекаюсь играми и их разработкой. Создаю уникальные игровые механики,
-              захватывающие сюжеты и интерактивные миры с использованием Unity и современных технологий.
+              Проектирую и создаю web‑сервисы на Python, пишу скрипты и автоматизацию, 
+              на фронте использую JavaScript. Люблю чистый код, понятные API и предсказуемые деплои.
             </motion.p>
 
             <motion.div

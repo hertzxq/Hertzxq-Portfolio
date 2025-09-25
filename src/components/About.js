@@ -6,19 +6,19 @@ import './About.css';
 const About = () => {
   const skills = [
     {
-      icon: FaGamepad,
-      title: 'Game Development',
-      description: 'Unity, C#, Game Design'
+      icon: FaCode,
+      title: 'Backend',
+      description: 'Python, FastAPI / Flask, SQL'
     },
     {
-      icon: FaCode,
-      title: 'Programming',
-      description: 'C#, JavaScript, Vue.js'
+      icon: FaLightbulb,
+      title: 'Автоматизация и DevOps',
+      description: 'GitHub Actions, Docker / Compose, Nginx'
     },
     {
       icon: FaUsers,
-      title: 'Open Source',
-      description: 'GitHub, Collaboration'
+      title: 'Инструменты',
+      description: 'Git, Poetry, JavaScript (Frontend)'
     }
   ];
 
@@ -43,20 +43,18 @@ const About = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h3>Разработчик игр с опытом программирования</h3>
+            <h3>Python backend‑разработчик</h3>
             <p>
-              Я увлеченный разработчик игр с опытом 1.5 года в игровой индустрии. 
-              С детства увлекаюсь как играми, так и их разработкой. Специализируюсь на создании 
-              игр на Unity с использованием C#, а также имею опыт в веб-разработке на Vue.js и React.
+              Проектирую и создаю web‑сервисы на Python: аккуратные REST API, сервисы интеграций 
+              и внутренние утилиты. Люблю чистый код, понятные контракты и предсказуемые деплои.
             </p>
             <p>
-              Моя страсть к играм началась в раннем возрасте, и теперь я превращаю эту страсть в карьеру. 
-              Я специализируюсь на создании уникальных игровых механик, оптимизации производительности 
-              и создании запоминающихся игровых впечатлений.
+              Мой стек: Python (FastAPI / Flask), SQL, Git, Docker (+ Compose), GitHub Actions, Nginx. 
+              На фронте использую JavaScript, когда это нужно продукту.
             </p>
             <p>
-              Кстати, как по мне, лучший курс по Unity, это официальный курс от самих разработчиков.
-              Единственный минус это то, что он на английском языке, но если вы знаете английский, то этот курс вам точно понравится.
+              Автоматизирую рутину скриптами, собираю CI/CD‑пайплайны и слежу за стабильностью 
+              окружений. Ценю простоту решений и прозрачность инфраструктуры.
             </p>
           </motion.div>
 
@@ -77,12 +75,12 @@ const About = () => {
                 <div className="stat-label">Репозиториев</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">5+</div>
+                <div className="stat-number">10+</div>
                 <div className="stat-label">Технологий</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">2</div>
-                <div className="stat-label">Игровых проекта</div>
+                <div className="stat-number">5+</div>
+                <div className="stat-label">Проектов</div>
               </div>
             </div>
           </motion.div>

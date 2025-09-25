@@ -9,43 +9,61 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Dont Let Me Freeze',
-      description: 'Игра про выживание у костра в холодной среде. Исследуйте мир, собирайте ресурсы и не дайте себе замерзнуть.',
-      image: '/3l4EI0.png', // Ваше изображение из public
-      category: 'game',
-      technologies: ['Unity', 'C#', 'Game Design'],
-      github: 'https://github.com/hertzxq/DontLetMeDieHere',
-      itch: 'https://hertzxq.itch.io/dont-let-me-freeze',
-      demo: 'https://hertzxq.itch.io/dont-let-me-freeze',
-      featured: true,
-      hasImage: true
-    },
-    {
-      id: 2,
       title: 'HertzxqSnickers',
       description: 'Веб-приложение на Vue.js с современным интерфейсом и интерактивными элементами.',
-      image: '/hertzxqSnickers.png', // Ваше изображение из public
       category: 'web',
       technologies: ['Vue.js', 'JavaScript', 'CSS3'],
       github: 'https://github.com/hertzxq/HertzxqSnickers',
       demo: 'https://github.com/hertzxq/HertzxqSnickers',
       featured: false,
-      hasImage: true
+      hasImage: false
     },
     {
       id: 3,
-      title: 'Urban Destroyer',
-      description: 'Игровой проект с динамичным геймплеем и современной графикой.',
-      image: '/UrbanDestoyer.png', // Ваше изображение из public
-      category: 'game',
-      technologies: ['Unity', 'C#', 'Game Design'],
-      github: 'https://github.com/hertzxq/urban-destroyer',
-      demo: 'https://yandex.ru/games/app/443995',
+      title: 'Dvoreckiy',
+      description: 'Лёгкий Discord-бот: музыка (yt-dlp + ffmpeg) и модерация на Python.',
+      category: 'other',
+      technologies: ['Python', 'discord.py'],
+      github: 'https://github.com/hertzxq/Dvoreckiy',
+      demo: 'https://github.com/hertzxq/Dvoreckiy',
       featured: false,
-      hasImage: true
+      hasImage: false
     },
     {
       id: 4,
+      title: 'VideoSnapBro',
+      description: 'Утилита/сервис для работы с видео/кадрами (репозиторий GitHub).',
+      category: 'other',
+      technologies: ['Python', 'CLI', 'Video'],
+      github: 'https://github.com/hertzxq/VideoSnapBro',
+      demo: 'https://github.com/hertzxq/VideoSnapBro',
+      featured: false,
+      hasImage: false
+    },
+    {
+      id: 5,
+      title: 'NekoFlow Frontend',
+      description: 'Фронтенд для NekoFlow: современный интерфейс и UX.',
+      category: 'web',
+      technologies: ['JavaScript', 'Frontend'],
+      github: 'https://github.com/hertzxq/NekoFlow-Frontend',
+      demo: 'https://github.com/hertzxq/NekoFlow-Frontend',
+      featured: false,
+      hasImage: false
+    },
+    {
+      id: 6,
+      title: 'NekoFlow Backend',
+      description: 'Бэкенд для NekoFlow: API и серверная логика.',
+      category: 'web',
+      technologies: ['Python', 'Backend', 'API'],
+      github: 'https://github.com/hertzxq/NekoFlow-Backend',
+      demo: 'https://github.com/hertzxq/NekoFlow-Backend',
+      featured: false,
+      hasImage: false
+    },
+    {
+      id: 2,
       title: 'Other Projects',
       description: 'Другие мои проекты можно посмтреть тут',
       category: 'other',
@@ -59,7 +77,6 @@ const Projects = () => {
 
   const filters = [
     { name: 'Все', value: 'all' },
-    { name: 'Игры', value: 'game' },
     { name: 'Веб-проекты', value: 'web' }
   ];
 

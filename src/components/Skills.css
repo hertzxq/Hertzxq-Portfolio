@@ -121,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 64px; /* выравниваем высоту карточек, убирая большие отступы между рядами */
+  min-height: 64px;
   line-height: 1.2;
 }
 

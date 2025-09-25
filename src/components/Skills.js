@@ -5,16 +5,16 @@ import './Skills.css';
 const Skills = () => {
   const technicalSkills = [
     { name: 'Python', level: 90, color: '#00ff88' },
-    { name: 'FastAPI / Django', level: 80, color: '#00ccff' },
-    { name: 'SQL/ORM (Postgres/SQLite/MySQL)', level: 75, color: '#4ecdc4' },
-    { name: 'JavaScript, React (Frontend)', level: 70, color: '#f7b731' }
+    { name: 'FastAPI / Flask', level: 80, color: '#00ccff' },
+    { name: 'SQL (Postgres/SQLite)', level: 75, color: '#4ecdc4' },
+    { name: 'JavaScript (Frontend)', level: 70, color: '#f7b731' }
   ];
 
   const gameSkills = [
     { name: 'Скрипты и автоматизация', level: 85, color: '#00ff88' },
     { name: 'CI/CD (GitHub Actions)', level: 75, color: '#00ccff' },
     { name: 'Docker / Docker Compose', level: 70, color: '#ff6b6b' },
-    { name: 'Git', level: 80, color: '#4ecdc4' }
+    { name: 'Git / Git Flow', level: 80, color: '#4ecdc4' }
   ];
 
   const tools = [

@@ -55,14 +55,15 @@ const Hero = () => {
               <span className="highlight"> Максим</span>
             </motion.h1>
             
+            
             <motion.p
               className="hero-description"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              Проектирую и создаю web‑сервисы на Python, пишу скрипты и автоматизацию, 
-              на фронте использую JavaScript. Люблю чистый код, понятные API и предсказуемые деплои.
+              Проектирую и создаю web‑сервисы на Python, пишу скрипты и автоматизацию,
+              на фронте использую JavaScript / React.
             </motion.p>
 
             <motion.div
